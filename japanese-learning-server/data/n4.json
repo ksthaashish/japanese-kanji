@@ -1,0 +1,42 @@
+[
+  {
+    "character": "勉強",
+    "meaning": "study",
+    "onyomi": [
+      "ベンキョウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      {
+        "kanji": "勉強",
+        "hiragana": "べんきょう",
+        "english": "study"
+      },
+      {
+        "kanji": "勉強する",
+        "hiragana": "べんきょうする",
+        "english": "to study"
+      }
+    ]
+  },
+  {
+    "character": "日本語",
+    "meaning": "Japanese language",
+    "onyomi": [
+      "ニホンゴ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      {
+        "kanji": "日本語",
+        "hiragana": "にほんご",
+        "english": "Japanese language"
+      },
+      {
+        "kanji": "日本語を勉強する",
+        "hiragana": "にほんごをべんきょうする",
+        "english": "to study Japanese"
+      }
+    ]
+  }
+]

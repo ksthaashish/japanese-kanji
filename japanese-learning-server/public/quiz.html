@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Kanji Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>❓ Kanji Quiz</h1>
+        <div class="nav-links">
+            <a href="index.html">🏠 Kanji List</a>
+            <a href="examples.html">📋 All Examples</a>
+        </div>
+    </header>
+    <main>
+        <div id="loading">Preparing quiz...</div>
+
+        <div id="kanji-selection" style="display: none;">
+            <div class="quiz-card setup-card">
+                <h2>Select Kanji to include</h2>
+                <button id="select-all-btn" class="select-all-btn">Select All</button>
+                <div id="kanji-checkboxes" class="kanji-selector-grid"></div>
+                <button id="continue-to-mode" class="continue-btn">Continue →</button>
+            </div>
+        </div>
+
+        <div id="quiz-setup" style="display: none;">
+            <div class="quiz-card setup-card">
+                <h2>Choose quiz mode</h2>
+                <div class="mode-selector">
+                    <label><input type="radio" name="mode" value="meaning" checked> Meaning (kanji → English)</label>
+                    <label><input type="radio" name="mode" value="kanji2hira"> Kanji → Hiragana</label>
+                    <label><input type="radio" name="mode" value="hira2kanji"> Hiragana → Kanji</label>
+                </div>
+                <button id="start-quiz-btn" class="start-btn">Start Quiz</button>
+            </div>
+        </div>
+
+        <div id="quiz-container" style="display: none;">
+            <div class="quiz-card">
+                <div class="quiz-header">
+                    <span class="score">Score: <span id="score">0</span></span>
+                    <span class="question-count">Question <span id="current-question">1</span>/<span id="total-questions">10</span></span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+                <div class="quiz-question">
+                    <div class="question-display" id="question-display">?</div>
+                    <p class="prompt" id="prompt">What is the meaning?</p>
+                </div>
+                <div class="quiz-options" id="options-container"></div>
+                <div class="quiz-feedback" id="feedback"></div>
+                <div class="button-group">
+                    <button id="next-btn" class="next-btn" disabled>Next →</button>
+                    <button id="quit-btn" class="quit-btn">Quit</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="error" class="error-message"></div>
+    </main>
+    <script src="quiz.js"></script>
+</body>
+</html>

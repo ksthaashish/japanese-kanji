@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Japanese Kanji Learning</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>📘 Japanese Kanji</h1>
+        <p>Hover over a kanji to see its meaning – click to learn more!</p>
+        <div class="nav-links">
+            <a href="examples.html">📋 All Examples</a>
+            <a href="quiz.html">❓ Quiz</a>
+            <button id="add-kanji-btn">➕ Add Kanji</button>
+        </div>
+    </header>
+    <main>
+        <div id="loading">Loading kanji...</div>
+        <div class="category-filter">
+            <span>Filter by:</span>
+            <div class="category-links" id="category-links">
+                <a href="#" data-category="all" class="active">All</a>
+            </div>
+        </div>
+        <div id="status" class="status-message"></div>
+        <div id="kanji-list" class="kanji-grid"></div>
+        <div id="error" class="error-message"></div>
+    </main>
+
+    <!-- Add/Edit Kanji Modal -->
+    <div id="kanjiModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-tabs">
+                <button class="tab-btn active" data-tab="form">Form</button>
+                <button class="tab-btn" data-tab="quick">Quick Add</button>
+            </div>
+            
+            <!-- Form Tab -->
+            <div id="form-tab" class="tab-pane active">
+                <h2 id="modal-title">Add New Kanji</h2>
+                <div class="form-group">
+                    <label>Character</label>
+                    <input type="text" id="edit-character" placeholder="e.g. 猫">
+                </div>
+                <div class="form-group">
+                    <label>Meaning</label>
+                    <input type="text" id="edit-meaning" placeholder="e.g. cat">
+                </div>
+                <div class="form-group">
+                    <label>Onyomi (comma separated)</label>
+                    <input type="text" id="edit-onyomi" placeholder="e.g. ビョウ, ミョウ">
+                </div>
+                <div class="form-group">
+                    <label>Kunyomi (comma separated)</label>
+                    <input type="text" id="edit-kunyomi" placeholder="e.g. ねこ">
+                </div>
+                <div class="form-group">
+                    <label>Category</label>
+                    <div class="category-selector">
+                        <select id="category-select">
+                            <option value="">-- Select or type custom --</option>
+                        </select>
+                        <input type="text" id="category-custom" placeholder="Custom category" style="display: none;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Examples</label>
+                    <div id="examples-container"></div>
+                    <button type="button" id="add-example-btn" class="add-example-btn">+ Add Example</button>
+                </div>
+                <input type="hidden" id="edit-original-character">
+            </div>
+
+            <!-- Quick Add Tab -->
+            <div id="quick-tab" class="tab-pane">
+                <h2>Quick Add Multiple Kanji</h2>
+                <p>Enter one kanji per line using this format (category is optional):</p>
+                <pre>character; meaning; onyomi (comma); kunyomi (comma); category; example1|hiragana1|english1, example2|hiragana2|english2</pre>
+                <p>If category is omitted, it defaults to "user".</p>
+                <p>Example:<br>猫; cat; ビョウ,ミョウ; ねこ; jlpt-n5; 猫|ねこ|cat, 子猫|こねこ|kitten</p>
+                <textarea id="quick-text" rows="10" placeholder="Paste your list here..."></textarea>
+            </div>
+
+            <div class="modal-buttons">
+                <button id="save-kanji-btn" class="save-btn">Save</button>
+                <button id="cancel-modal-btn" class="cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

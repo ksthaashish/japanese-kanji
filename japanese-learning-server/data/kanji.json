@@ -1,0 +1,657 @@
+[
+  {
+    "character": "俺",
+    "meaning": "I, me",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "おれ"
+    ],
+    "examples": [
+      {
+        "kanji": "俺",
+        "hiragana": "おれ",
+        "english": "I"
+      },
+      {
+        "kanji": "俺たち",
+        "hiragana": "おれたち",
+        "english": "we"
+      },
+      {
+        "kanji": "俺様",
+        "hiragana": "おれさま",
+        "english": "my humble self (arrogant)"
+      }
+    ]
+  },
+  {
+    "character": "最",
+    "meaning": "most, extreme",
+    "onyomi": [
+      "サイ",
+      "シュ"
+    ],
+    "kunyomi": [
+      "もっと.も",
+      "つま"
+    ],
+    "examples": [
+      {
+        "kanji": "最高",
+        "hiragana": "さいこう",
+        "english": "best"
+      },
+      {
+        "kanji": "最後",
+        "hiragana": "さいご",
+        "english": "last"
+      },
+      {
+        "kanji": "最近",
+        "hiragana": "さいきん",
+        "english": "recently"
+      },
+      {
+        "kanji": "最初",
+        "hiragana": "saiso",
+        "english": "first"
+      }
+    ]
+  },
+  {
+    "character": "賞",
+    "meaning": "prize, reward",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ほ.める"
+    ],
+    "examples": [
+      {
+        "kanji": "賞",
+        "hiragana": "しょう",
+        "english": "prize"
+      },
+      {
+        "kanji": ", 賞品",
+        "hiragana": "しょうひん",
+        "english": "prize goods"
+      },
+      {
+        "kanji": ", 賞金",
+        "hiragana": "しょうきん",
+        "english": "prize money"
+      }
+    ]
+  },
+  {
+    "character": "勝",
+    "meaning": "win, victory",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "か.つ",
+      "まさ.る"
+    ],
+    "examples": [
+      {
+        "kanji": "勝つ",
+        "hiragana": "かつ",
+        "english": "to win"
+      },
+      {
+        "kanji": "勝ち",
+        "hiragana": "かち",
+        "english": "victory"
+      },
+      {
+        "kanji": "勝利",
+        "hiragana": "しょうり",
+        "english": "win"
+      }
+    ]
+  },
+  {
+    "character": "輪",
+    "meaning": "wheel, ring, circle",
+    "onyomi": [
+      "リン"
+    ],
+    "kunyomi": [
+      "わ"
+    ],
+    "examples": [
+      {
+        "kanji": "輪",
+        "hiragana": "わ",
+        "english": "ring"
+      },
+      {
+        "kanji": "車輪",
+        "hiragana": "しゃりん",
+        "english": "wheel"
+      },
+      {
+        "kanji": "輪郭",
+        "hiragana": "りんかく",
+        "english": "outline"
+      }
+    ]
+  },
+  {
+    "character": "線",
+    "meaning": "line, track",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "すじ"
+    ],
+    "examples": [
+      {
+        "kanji": "線",
+        "hiragana": "せん",
+        "english": "line"
+      },
+      {
+        "kanji": ", 新幹線",
+        "hiragana": "しんかんせん",
+        "english": "bullet train"
+      },
+      {
+        "kanji": ", 曲線",
+        "hiragana": "きょくせん",
+        "english": "curve"
+      }
+    ]
+  },
+  {
+    "character": "知",
+    "meaning": "know, wisdom",
+    "onyomi": [
+      "チ"
+    ],
+    "kunyomi": [
+      "し.る"
+    ],
+    "examples": [
+      {
+        "kanji": "知る",
+        "hiragana": "しる",
+        "english": "to know"
+      },
+      {
+        "kanji": "知人",
+        "hiragana": "ちじ",
+        "english": "acquaintance"
+      },
+      {
+        "kanji": " 知識",
+        "hiragana": "ちしき",
+        "english": "knowledge"
+      },
+      {
+        "kanji": "お知らせだ",
+        "hiragana": "oshiraseda",
+        "english": "notice"
+      }
+    ]
+  },
+  {
+    "character": "贈",
+    "meaning": "present, gift",
+    "onyomi": [
+      "ゾウ",
+      "ソウ"
+    ],
+    "kunyomi": [
+      "おく.る"
+    ],
+    "examples": [
+      {
+        "kanji": "贈る",
+        "hiragana": "おくる",
+        "english": "to give a present"
+      },
+      {
+        "kanji": "贈り物",
+        "hiragana": "おくりもの",
+        "english": "gift"
+      },
+      {
+        "kanji": "贈答",
+        "hiragana": "ぞうとう",
+        "english": "exchange of gifts"
+      }
+    ]
+  },
+  {
+    "character": "失",
+    "meaning": "lose, error",
+    "onyomi": [
+      "シツ"
+    ],
+    "kunyomi": [
+      "うしな.う"
+    ],
+    "examples": [
+      {
+        "kanji": "失う",
+        "hiragana": "うしなう",
+        "english": "to lose"
+      },
+      {
+        "kanji": "失礼",
+        "hiragana": "しつれい",
+        "english": "rudeness"
+      },
+      {
+        "kanji": "失敗",
+        "hiragana": "しっぱい",
+        "english": "failure"
+      },
+      {
+        "kanji": "失格だ",
+        "hiragana": "datsurakuda",
+        "english": "drop out"
+      }
+    ]
+  },
+  {
+    "character": "脱",
+    "meaning": "escape, remove",
+    "onyomi": [
+      "ダツ"
+    ],
+    "kunyomi": [
+      "ぬ.ぐ",
+      "ぬ.げる"
+    ],
+    "examples": [
+      {
+        "kanji": "脱ぐ",
+        "hiragana": "ぬぐ",
+        "english": "to take off clothes"
+      },
+      {
+        "kanji": ", 脱出",
+        "hiragana": "だっしゅつ",
+        "english": "escape"
+      },
+      {
+        "kanji": ", 脱走",
+        "hiragana": "だっそう",
+        "english": "desertion"
+      }
+    ]
+  },
+  {
+    "character": "始",
+    "meaning": "begin, start",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "はじ.める",
+      "はじ.まる"
+    ],
+    "examples": [
+      {
+        "kanji": "始める",
+        "hiragana": "はじめる",
+        "english": "to begin"
+      },
+      {
+        "kanji": ", 始まる",
+        "hiragana": "はじまる",
+        "english": "to begin (intransitive)"
+      },
+      {
+        "kanji": ", 開始",
+        "hiragana": "かいし",
+        "english": "start"
+      }
+    ]
+  },
+  {
+    "character": "初",
+    "meaning": "first, beginning",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "はじ.め",
+      "はじ.めて",
+      "はつ"
+    ],
+    "examples": [
+      {
+        "kanji": "初めて",
+        "hiragana": "はじめて",
+        "english": "for the first time"
+      },
+      {
+        "kanji": ", 初恋",
+        "hiragana": "はつこい",
+        "english": "first love"
+      },
+      {
+        "kanji": ", 初期",
+        "hiragana": "しょき",
+        "english": "early stage"
+      }
+    ]
+  },
+  {
+    "character": "呼",
+    "meaning": "call, name",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "よ.ぶ"
+    ],
+    "examples": [
+      {
+        "kanji": "呼ぶ",
+        "hiragana": "よぶ",
+        "english": "to call"
+      },
+      {
+        "kanji": ", 呼び出し",
+        "hiragana": "よびだし",
+        "english": "summons"
+      },
+      {
+        "kanji": ", 呼称",
+        "hiragana": "こしょう",
+        "english": "designation"
+      }
+    ]
+  },
+  {
+    "character": "狙",
+    "meaning": "aim, target",
+    "onyomi": [
+      "ソ",
+      "ショ"
+    ],
+    "kunyomi": [
+      "ねら.う",
+      "ねら.い"
+    ],
+    "examples": [
+      {
+        "kanji": "狙う",
+        "hiragana": "ねらう",
+        "english": "to aim"
+      },
+      {
+        "kanji": ", 狙い",
+        "hiragana": "ねらい",
+        "english": "aim, target"
+      },
+      {
+        "kanji": "狙撃",
+        "hiragana": "そげき",
+        "english": "shooting"
+      }
+    ]
+  },
+  {
+    "character": "遠",
+    "meaning": "far, distant",
+    "onyomi": [
+      "エン",
+      "オン"
+    ],
+    "kunyomi": [
+      "とお.い"
+    ],
+    "examples": [
+      {
+        "kanji": "遠い",
+        "hiragana": "とおい",
+        "english": "far"
+      },
+      {
+        "kanji": ", 遠く",
+        "hiragana": "とおく",
+        "english": "far away"
+      },
+      {
+        "kanji": ", 遠足",
+        "hiragana": "えんそく",
+        "english": "excursion"
+      }
+    ]
+  },
+  {
+    "character": "残",
+    "meaning": "remain, left",
+    "onyomi": [
+      "ザン"
+    ],
+    "kunyomi": [
+      "のこ.る",
+      "のこ.す"
+    ],
+    "examples": [
+      {
+        "kanji": "残る",
+        "hiragana": "のこる",
+        "english": "to remain"
+      },
+      {
+        "kanji": ", 残す",
+        "hiragana": "のこす",
+        "english": "to leave behind"
+      },
+      {
+        "kanji": ", 残念",
+        "hiragana": "ざんねん",
+        "english": "regrettable"
+      }
+    ]
+  },
+  {
+    "character": "試",
+    "meaning": "test, try",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "ため.す",
+      "こころ.みる"
+    ],
+    "examples": [
+      {
+        "kanji": "試す",
+        "hiragana": "ためす",
+        "english": "to try"
+      },
+      {
+        "kanji": "試合",
+        "hiragana": "しあい",
+        "english": "match, game "
+      },
+      {
+        "kanji": "試験",
+        "hiragana": "しけん",
+        "english": "exam"
+      }
+    ]
+  },
+  {
+    "character": "曲",
+    "meaning": "curve, music",
+    "onyomi": [
+      "キョク"
+    ],
+    "kunyomi": [
+      "ま.がる",
+      "ま.げる"
+    ],
+    "examples": [
+      {
+        "kanji": "曲がる",
+        "hiragana": "まがる",
+        "english": "to turn"
+      },
+      {
+        "kanji": "曲げる",
+        "hiragana": "まげる",
+        "english": "to bend"
+      },
+      {
+        "kanji": "曲",
+        "hiragana": "きょく",
+        "english": "tune"
+      }
+    ]
+  },
+  {
+    "character": "回",
+    "meaning": "times, revolve",
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "kunyomi": [
+      "まわ.る",
+      "まわ.す"
+    ],
+    "examples": [
+      {
+        "kanji": "回る",
+        "hiragana": "まわる",
+        "english": "to turn"
+      },
+      {
+        "kanji": ", 回す",
+        "hiragana": "まわす",
+        "english": "to turn something"
+      },
+      {
+        "kanji": ", 回数",
+        "hiragana": "かいすう",
+        "english": "number of times"
+      }
+    ]
+  },
+  {
+    "character": "彼",
+    "meaning": "he, that",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "かれ",
+      "かの"
+    ],
+    "examples": [
+      {
+        "kanji": "彼",
+        "hiragana": "かれ",
+        "english": "he"
+      },
+      {
+        "kanji": ", boyfriend, 彼女",
+        "hiragana": "かのじょ",
+        "english": "she"
+      },
+      {
+        "kanji": ", girlfriend, 彼ら",
+        "hiragana": "かれら",
+        "english": "they"
+      }
+    ]
+  },
+  {
+    "character": "戦",
+    "meaning": "war, battle",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "いくさ",
+      "たたか.う"
+    ],
+    "examples": [
+      {
+        "kanji": "戦う",
+        "hiragana": "たたかう",
+        "english": "to fight"
+      },
+      {
+        "kanji": ", 戦争",
+        "hiragana": "せんそう",
+        "english": "war"
+      },
+      {
+        "kanji": ", 作戦",
+        "hiragana": "さくせん",
+        "english": "tactics"
+      }
+    ]
+  },
+  {
+    "character": "種",
+    "meaning": "kind, type, seed",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "たね"
+    ],
+    "examples": [
+      {
+        "kanji": "種",
+        "hiragana": "たね",
+        "english": "seed"
+      },
+      {
+        "kanji": ", 種類",
+        "hiragana": "しゅるい",
+        "english": "variety"
+      },
+      {
+        "kanji": ", kind, 人種",
+        "hiragana": "じんしゅ",
+        "english": "race"
+      }
+    ]
+  },
+  {
+    "character": "全",
+    "meaning": "whole, all, entire",
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まった.く",
+      "すべ.て"
+    ],
+    "examples": [
+      {
+        "kanji": "全て",
+        "hiragana": "すべて",
+        "english": "everything"
+      },
+      {
+        "kanji": "全部",
+        "hiragana": "ぜんぶ",
+        "english": "all"
+      },
+      {
+        "kanji": "安全",
+        "hiragana": "あんぜん",
+        "english": "safety"
+      }
+    ]
+  }
+]
